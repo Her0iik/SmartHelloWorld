@@ -8,12 +8,16 @@ namespace App
         public static DateTime getDateTime (){
             return DateTime.Now;
         }
+        static string getName(string[] args) {
+            return args.Length > 0 ? args[0] : "Thomas";
+        }
         
         static void Main(string[] args)
         {
             IOutput output;
+
             var date = getDateTime();
-            var name = args.Length > 0 ? args[0] : "World";
+            var name = getName(args);
             var dateParsed = 0;
 
             if (dateParsed >= 6 && dateParsed < 12){
