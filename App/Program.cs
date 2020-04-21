@@ -5,8 +5,8 @@ namespace App
     class Program
     {
 
-        public static DateTime getDateTime (){
-            return DateTime.Now;
+        public static int getDateTime (){
+            return DateTime.Now.Hour;
         }
         static string getName(string[] args) {
             return args.Length > 0 ? args[0] : "Thomas";
@@ -18,16 +18,20 @@ namespace App
 
             var date = getDateTime();
             var name = getName(args);
-            var dateParsed = 0;
 
-            if (dateParsed >= 6 && dateParsed < 12){
-                output.Send($"Good morning {name}"); return;
+            Console.WriteLine(date);
+
+            if (date >= 6 && date < 12){
+                //output.Send($"Good morning {name}"); return;
+                Console.WriteLine("Good morning "+ name);
             }
-            else if (dateParsed >= 12 && dateParsed < 20)
+            else if (date >= 12 && date < 20)
             {
-                output.Send($"Good afternood {name}"); return;
+                //output.Send($"Good afternood {name}"); return;
+                Console.WriteLine("Good afternood "+ name);
             } 
-            output.Send($"Good night {name}");    
+            //output.Send($"Good night {name}");    
+            Console.WriteLine("Good night "+ name);
         }
     }
 }
