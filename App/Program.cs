@@ -19,8 +19,6 @@ namespace App
             var date = getDateTime();
             var name = getName(args);
 
-            Console.WriteLine(date);
-
             if (date >= 6 && date < 12){
                 //output.Send($"Good morning {name}"); return;
                 Console.WriteLine("Good morning "+ name);
@@ -29,9 +27,13 @@ namespace App
             {
                 //output.Send($"Good afternood {name}"); return;
                 Console.WriteLine("Good afternood "+ name);
-            } 
+            }  
+            else
+            {
             //output.Send($"Good night {name}");    
             Console.WriteLine("Good night "+ name);
+            }
+           
         }
     }
 }
