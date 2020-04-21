@@ -1,0 +1,11 @@
+D:\Documents\GitHub\SmartHelloWorld\App\bin\Debug\netcoreapp2.1\App.deps.json
+D:\Documents\GitHub\SmartHelloWorld\App\bin\Debug\netcoreapp2.1\App.runtimeconfig.json
+D:\Documents\GitHub\SmartHelloWorld\App\bin\Debug\netcoreapp2.1\App.runtimeconfig.dev.json
+D:\Documents\GitHub\SmartHelloWorld\App\bin\Debug\netcoreapp2.1\App.dll
+D:\Documents\GitHub\SmartHelloWorld\App\bin\Debug\netcoreapp2.1\App.pdb
+D:\Documents\GitHub\SmartHelloWorld\App\obj\Debug\netcoreapp2.1\App.csprojAssemblyReference.cache
+D:\Documents\GitHub\SmartHelloWorld\App\obj\Debug\netcoreapp2.1\App.csproj.CoreCompileInputs.cache
+D:\Documents\GitHub\SmartHelloWorld\App\obj\Debug\netcoreapp2.1\App.AssemblyInfoInputs.cache
+D:\Documents\GitHub\SmartHelloWorld\App\obj\Debug\netcoreapp2.1\App.AssemblyInfo.cs
+D:\Documents\GitHub\SmartHelloWorld\App\obj\Debug\netcoreapp2.1\App.dll
+D:\Documents\GitHub\SmartHelloWorld\App\obj\Debug\netcoreapp2.1\App.pdb
